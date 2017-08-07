@@ -87,13 +87,4 @@ public class VendingMachine {
 		System.out.print("What do you want? ");
 		this.choice = sc.nextInt();
 	}
-
-	public static void main(String[] args) {
-		
-		VendingMachine vender = new VendingMachine();
-		
-		vender.displayOptions();
-		vender.takeCustomerOrder();
-		vender.machineResponse();
-	}
 }
