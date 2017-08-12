@@ -1,0 +1,25 @@
+The root of equation 1 is 65.52360023657735
+The root of equation 2 is 51.775897854764004
+The root of equation 3 is 22.296768318361718
+The root of equation 4 is 0.0
+
+The root of equation 5 is 25.84168873754895
+The root of equation 6 is 52.333245491003
+The root of equation 7 is 27.38410200050273
+The root of equation 8 is 14.162648903255123
+
+The root of equation 9 is 61.81579547321971
+The root of equation 10 is 35.65891695983855
+The root of equation 11 is 50.86894903825782
+The root of equation 12 is 42.44191415666729
+
+The root of equation 13 is 19.462089261650878
+The root of equation 14 is 33.3976347473369
+The root of equation 15 is 28.381649174315122
+The root of equation 16 is 0.0
+
+The root of equation 17 is 14.317314518528415
+The root of equation 18 is 60.45129322576892
+The root of equation 19 is 19.666779896838445
+The root of equation 20 is 39.41559628529083
+
