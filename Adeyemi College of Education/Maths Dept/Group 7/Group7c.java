@@ -22,29 +22,28 @@ public class Group7c {
 		System.out.println("Enter values for n, R, T and  P");
 		for (int row = 0; row < R.length; row++){
 			for (int col = 0; col < R[row].length; col++){
-				System.out.print("n"+count+": ");
-				n[row][col] = (int)(Math.random()*100);
-				// n[row][col] = input.nextDouble();
-				System.out.print("R"+count+": ");
-				R[row][col] = (int)(Math.random()*100);
-				// R[row][col] = input.nextDouble();
-				System.out.print("T"+count+": ");
-				T[row][col] = (int)(Math.random()*100);
-				// T[row][col] = input.nextDouble();
-				System.out.print("P"+count+": ");
-				P[row][col] = (int)(Math.random()*100);
-				// P[row][col] = input.nextDouble();
+				System.out.print("n"+count+" = ");
+				n[row][col] = input.nextDouble();
+
+				System.out.print("R"+count+" = ");
+				R[row][col] = input.nextDouble();
+				
+				System.out.print("T"+count+" = ");
+				T[row][col] = input.nextDouble();
+
+				System.out.print("P"+count+" = ");
+				P[row][col] = input.nextDouble();
 				count++;
 				System.out.println();
 			}
 		}
 
-		count = 1;
 		// calculate the values of V
+		count = 1;
 		for (int row = 0; row<R.length; row++){
 			for (int col=0; col<R[row].length; col++){
 				V[row][col] = (n[row][col] * R[row][col] * T[row][col]) / P[row][col];
-				System.out.println("V" + count + "= " + V[row][col] + "\t");
+				System.out.println("V" + count + " = " + V[row][col] + "\t");
 				count++;
 			}
 			System.out.println();
@@ -54,9 +53,9 @@ public class Group7c {
 		try {
 			for (int row=0; row < R.length; row++){
 				for (int col = 0; col < R[row].length; col++){
-					builder.append("V" + count + "= " + V[row][col] + "\t");
+					builder.append("V" + count + " = " + V[row][col] + "\t");
 					count++;
-					if (col<R.length-1){
+					if (col<V.length-1){
 						builder.append("\n");
 					}
 				}
