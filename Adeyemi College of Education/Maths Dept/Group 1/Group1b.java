@@ -44,8 +44,8 @@ public class Group1b {
 			System.out.println();
 		}
 
-		count = 1;
 		// write data to file
+		count = 1;
 		try {
 			for (int row = 0; row < SI.length; row++){
 				for (int col = 0; col < SI[row].length; col++){
