@@ -45,6 +45,7 @@ public class BankInterest {
 				break;
 			default:
 				System.out.println("Invalid Account type entered");
+				break;
 		}
 	}
 }
