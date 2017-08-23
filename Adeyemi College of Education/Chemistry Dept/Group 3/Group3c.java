@@ -45,7 +45,7 @@ public class Group3c {
 
         for (int i = 0; i < u.length; i++){
             for (int j=0; j<u[i].length; j++){
-                R[i][j] = numerator[i][j] / 2*g;
+                R[i][j] = numerator[i][j] / (2*g);
                 System.out.println("R"+(count)+": "+R[i][j] + " ");
                 count++;
             }
