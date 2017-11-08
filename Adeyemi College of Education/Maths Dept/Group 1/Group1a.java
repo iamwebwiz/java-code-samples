@@ -15,7 +15,24 @@ public class Group1a {
 		double[][] a = new double[5][4];
 		double[][] A = new double[5][4];
 
-		int count = 1;
+		try {
+			InputStream is = new FileInputStream("Group1aInput.txt");
+			int value = 0;
+
+			for (int i = 0; i < A.length; i++) {
+			   for (int j = 0; j < A[row].length; j++) {
+			      try{
+			        int value = is.read();
+			        if (value == -1) break;
+			         a[i][j] = value;
+			         System.out.println("number is "+ a[i][j]);
+			        }
+			        catch (Exception e) {
+			          e.printStackTrace();
+			        }
+			    }//j
+			 } //i
+		}
 		// enter values for B, C and a
 		System.out.println("Enter values for B, C and a");
 		for (int row = 0; row < A.length; row++){

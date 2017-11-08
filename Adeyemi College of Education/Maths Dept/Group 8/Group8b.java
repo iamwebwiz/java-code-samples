@@ -7,12 +7,10 @@ public class Group8b {
 		FileWriter file = null;
 		BufferedWriter bw = null;
 		StringBuilder builder = null;
-
 		double[][] g = new double[5][4];
 		double[][] f = new double[5][4];
 		double[][] c = new double[5][4];
 		double[][] r = new double[5][4];
-
 		int count = 1;
 		System.out.println("Enter values for g, f and c");
 		for (int row=0; row < r.length; row++){
@@ -27,7 +25,6 @@ public class Group8b {
 				count++;
 			}
 		}
-
 		count = 1;
 		for (int row = 0; row < r.length; row++){
 			for (int col = 0; col < r[row].length; col++){
@@ -37,13 +34,11 @@ public class Group8b {
 			}
 			System.out.println();
 		}
-
 		count = 1;
 		try {
 			file = new FileWriter("Group8bOutput.txt");
 			bw = new BufferedWriter(file);
 			builder = new StringBuilder();
-
 			for (int row = 0; row < r.length; row++){
 				for (int col = 0; col < r[row].length; col++){
 					builder.append("r_" + count + " = " + r[row][col]);
