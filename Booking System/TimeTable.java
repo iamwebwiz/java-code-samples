@@ -62,14 +62,4 @@ class TimeTable
             return false;
         }
     }
-
-    public int numberOfDays()
-    {
-        return this.times[days];
-    }
-
-    public int numberOfPeriods()
-    {
-        return this.times[days][periods]
-    }
 }
